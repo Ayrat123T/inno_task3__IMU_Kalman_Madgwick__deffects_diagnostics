@@ -197,3 +197,5 @@ adgwick.py
 Полный результат экспортируем в [csv-файл](src/inno/inno_task3__IMU_Kalman_Madgwick__deffects_diagnostics/imu_dual_comparison_20260819_141821.csv)
 
 [Проанализируем csv-файл](data_analysis.md)
+
+Для создания скриптов и анализа данных использовался [deepseek](https://chat.deepseek.com/share/mvzsoktu1e1ikb67fs), для офомления [perplexity](https://www.perplexity.ai/search/9fb9a688-e6e4-455c-8717-b6c1f4a14ca4)
