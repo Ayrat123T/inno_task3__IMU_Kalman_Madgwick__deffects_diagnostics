@@ -1,0 +1,33 @@
+======================================================================
+IMU DATA ANALYSIS - STATISTICS SUMMARY
+Generated: 2026-08-19 12:03:09
+======================================================================
+
+REFERENCE DATA STATISTICS:
+--------------------------------------------------
+accel_x    | Mean:    0.131 | Std:    0.710 | RMS:    0.722
+accel_y    | Mean:   -0.015 | Std:    1.226 | RMS:    1.226
+accel_z    | Mean:    9.742 | Std:    0.577 | RMS:    9.760
+gyro_x     | Mean:    0.010 | Std:    0.039 | RMS:    0.040
+gyro_y     | Mean:   -0.007 | Std:    0.029 | RMS:    0.030
+gyro_z     | Mean:    0.037 | Std:    0.123 | RMS:    0.129
+
+DEFECTIVE DATA STATISTICS:
+--------------------------------------------------
+accel_x    | Mean:    0.183 | Std:    0.713 | RMS:    0.736
+accel_y    | Mean:   -0.016 | Std:    1.225 | RMS:    1.225
+accel_z    | Mean:    9.719 | Std:    0.577 | RMS:    9.736
+gyro_x     | Mean:    0.020 | Std:    0.039 | RMS:    0.044
+gyro_y     | Mean:   -0.022 | Std:    0.029 | RMS:    0.036
+gyro_z     | Mean:   -0.042 | Std:    0.127 | RMS:    0.134
+
+COMPARISON STATISTICS:
+--------------------------------------------------
+accel_x    | Bias:    0.051 | Std Ratio:   1.00 | RMS Error:    1.013
+accel_y    | Bias:   -0.002 | Std Ratio:   1.00 | RMS Error:    1.776
+accel_z    | Bias:   -0.024 | Std Ratio:   1.00 | RMS Error:    0.792
+gyro_x     | Bias:    0.010 | Std Ratio:   1.01 | RMS Error:    0.054
+gyro_y     | Bias:   -0.015 | Std Ratio:   0.98 | RMS Error:    0.044
+gyro_z     | Bias:   -0.079 | Std Ratio:   1.03 | RMS Error:    0.244
+
+======================================================================

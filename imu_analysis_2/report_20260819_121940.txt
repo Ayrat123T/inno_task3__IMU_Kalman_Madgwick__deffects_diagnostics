@@ -1,0 +1,83 @@
+================================================================================
+IMU COMPREHENSIVE ANALYSIS REPORT
+================================================================================
+
+Generated: 2026-08-19 12:19:40
+Recording Duration: 60.0 seconds
+Reference Samples: 6000
+Defective Samples: 5383
+
+STATISTICS
+--------------------------------------------------------------------------------
+
+ACCEL_X:
+  Reference: Mean=0.1604, Std=1.7653, RMS=1.7726
+  Defective: Mean=0.2010, Std=1.7725, RMS=1.7838
+  Difference: Mean=0.0406, Std=0.0072
+
+ACCEL_Y:
+  Reference: Mean=0.0014, Std=3.4379, RMS=3.4379
+  Defective: Mean=-0.0086, Std=3.4224, RMS=3.4224
+  Difference: Mean=-0.0101, Std=-0.0156
+
+ACCEL_Z:
+  Reference: Mean=9.7465, Std=2.8516, RMS=10.1550
+  Defective: Mean=9.7298, Std=2.8556, RMS=10.1402
+  Difference: Mean=-0.0166, Std=0.0040
+
+GYRO_X:
+  Reference: Mean=0.0098, Std=0.1106, RMS=0.1110
+  Defective: Mean=0.0195, Std=0.1108, RMS=0.1125
+  Difference: Mean=0.0097, Std=0.0002
+
+GYRO_Y:
+  Reference: Mean=-0.0071, Std=0.0803, RMS=0.0806
+  Defective: Mean=-0.0221, Std=0.0782, RMS=0.0813
+  Difference: Mean=-0.0149, Std=-0.0021
+
+GYRO_Z:
+  Reference: Mean=0.0333, Std=0.0611, RMS=0.0696
+  Defective: Mean=-0.0393, Std=0.0634, RMS=0.0746
+  Difference: Mean=-0.0726, Std=0.0022
+
+FREQUENCY ANALYSIS
+--------------------------------------------------------------------------------
+  Reference: 100.0 Hz (std: 0.5 ms jitter)
+  Defective: 89.7 Hz (std: 3.6 ms jitter)
+
+STATIC BIAS
+--------------------------------------------------------------------------------
+  Reference:
+    Accel Bias: [0.2112, -0.0124, 9.5233] m/s²
+    Gyro Bias:  [0.0099, -0.0065, 0.0345] rad/s
+  Defective:
+    Accel Bias: [0.2551, 0.0019, 9.5048] m/s²
+    Gyro Bias:  [0.0195, -0.0214, -0.0406] rad/s
+
+OUTLIER ANALYSIS
+--------------------------------------------------------------------------------
+  Reference: 993 outliers (2.8%)
+  Defective: 889 outliers (2.5%)
+
+COVARIANCE ANALYSIS
+--------------------------------------------------------------------------------
+  Reference - accel_cov:
+    Valid: 6000/6000 (100.0%)
+    Avg Trace: 0.0300
+  Reference - gyro_cov:
+    Valid: 6000/6000 (100.0%)
+    Avg Trace: 0.0018
+  Reference - orient_cov:
+    Valid: 0/6000 (0.0%)
+    Avg Trace: nan
+  Defective - accel_cov:
+    Valid: 5383/5383 (100.0%)
+    Avg Trace: 0.3000
+  Defective - gyro_cov:
+    Valid: 5383/5383 (100.0%)
+    Avg Trace: 0.0180
+  Defective - orient_cov:
+    Valid: 0/5383 (0.0%)
+    Avg Trace: nan
+
+================================================================================
