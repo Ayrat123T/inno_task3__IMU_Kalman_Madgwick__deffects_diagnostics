@@ -195,3 +195,5 @@ adgwick.py
 [Отчёт в формате txt](src/inno/inno_task3__IMU_Kalman_Madgwick__deffects_diagnostics/imu_analysis_2/report_20260819_121940.txt)
 
 Полный результат экспортируем в [csv-файл](src/inno/inno_task3__IMU_Kalman_Madgwick__deffects_diagnostics/imu_dual_comparison_20260819_141821.csv)
+
+[Проанализируем csv-файл](data_analysis.md)
